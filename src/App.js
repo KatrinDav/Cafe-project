@@ -8,7 +8,7 @@ import Contact from "./components/Contact.js";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <header>
           <nav>
