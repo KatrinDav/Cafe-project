@@ -1,5 +1,13 @@
 import React from "react";
-
+import img1 from "../img/tea.jpg";
+import img2 from "../img/kawa2.jpg";
+import img3 from "../img/cake1.jpg";
+import img4 from "../img/cake2.jpg";
+import img5 from "../img/table.jpg";
+import img6 from "../img/ice1.jpg";
+import img7 from "../img/ice2.jpg";
+import img8 from "../img/kawa3.jpg";
+import img9 from "../img/tea2.jpg";
 import "./Menu.css";
 
 const products = [
@@ -301,7 +309,35 @@ const Gallery = () => {
   return (
     <>
       <h1>Gallery</h1>
-      <div />
+      <div id="main">
+        <div>
+          <img src={img1} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img2} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img3} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img4} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img5} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img6} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img8} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img7} alt="obrazek" />
+        </div>
+        <div>
+          <img src={img9} alt="obrazek" />
+        </div>
+      </div>
     </>
   );
 };

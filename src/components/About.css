@@ -9,31 +9,74 @@ body {
     margin-right: auto;
 }
 
-#about h2 {
+#about h1 {
     color: black;
-    font-size: 5rem;
+    font-size: 4.4rem;
     font-weight: 100;
     padding-bottom: 50px;
     text-align: center;
 }
 
 #about p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 #foto {
-    /* max-width: 640px; */
-    width: 50%;
-    height: 380px;
+    width: 639px;
+    height: 371px;
     margin: 60px auto;
-    background-image: url("../img/widok.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
 }
 
 #foto img {
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 996px) {
+    #about {
+        width: 80%;
+    }
+}
+
+@media (max-width: 868px) {
+    #about h2 {
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 760px) {
+
+
+    #foto {
+        width: 539px;
+        height: 371px;
+    }
+
+}
+
+@media (max-width: 586px) {
+    #about h2 {
+        font-size: 3.7rem;
+    }
+
+    #foto {
+        width: 439px;
+        height: 371px;
+
+    }
+
+}
+
+@media (max-width: 430px) {
+    #about {
+        padding-top: 120px;
+    }
+
+    #foto {
+        width: 339px;
+        height: 271px;
+    }
 }

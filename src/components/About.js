@@ -1,11 +1,12 @@
 import React from "react";
+import img11 from "../img/widok.jpg";
 import "./About.css";
 
 const About = () => {
   return (
     <>
       <section id="about">
-        <h2>About Coffee Ideas</h2>
+        <h1>About Coffee Ideas</h1>
         <p>
           Our cafe has existed for over 2 years. This is a unique place, created
           and run by coffee enthusiasts. Our baristas serve the best coffee -
@@ -38,10 +39,12 @@ const About = () => {
           with coffee and tea are delicious, homemade cakes, prepared and baked
           according to verified recipes. We offer: cheesecake, apple pie, yeast
           cake, cake, grandmother and fruit cake. We are open every day, from
-          8:00 to 22:00. Welcome!
+          8:00 PM. Come and visit Us!
         </p>
       </section>
-      <section id="foto" />
+      <section id="foto">
+        <img src={img11} alt="obrazek" />
+      </section>
     </>
   );
 };

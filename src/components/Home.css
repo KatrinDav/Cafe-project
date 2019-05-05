@@ -15,10 +15,6 @@ img {
     height: auto;
 }
 
-.cup {
-    position: absolute;
-}
-
 .main h1 {
     color: white;
     font-size: 9rem;
@@ -46,4 +42,27 @@ img {
     color: white;
     padding: 7px;
 
+}
+
+@media (max-width: 868px) {
+    .main h1 {
+        font-size: 7rem;
+
+    }
+
+    .main h2 {
+        font-size: 3.7rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .main h1 {
+        font-size: 5rem;
+        padding-top: 120px;
+
+    }
+
+    .main h2 {
+        font-size: 3rem;
+    }
 }

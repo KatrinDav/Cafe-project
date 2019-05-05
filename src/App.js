@@ -19,13 +19,20 @@ function App() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/About">About</NavLink>
+                <NavLink to="/About" activeClassName="selected">
+                  About
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/Menu">Menu</NavLink>
+                <NavLink to="/Menu" activeClassName="selected">
+                  Menu
+                </NavLink>
               </li>
               <li>
-                <NavLink to="/Contact"> Contact</NavLink>
+                <NavLink to="/Contact" activeClassName="selected">
+                  {" "}
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </nav>
