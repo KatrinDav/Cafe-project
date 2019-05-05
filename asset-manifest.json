@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Cafe-project/static/css/main.053a887c.chunk.css",
+    "main.js": "/Cafe-project/static/js/main.5b979453.chunk.js",
+    "main.js.map": "/Cafe-project/static/js/main.5b979453.chunk.js.map",
+    "runtime~main.js": "/Cafe-project/static/js/runtime~main.114dd31c.js",
+    "runtime~main.js.map": "/Cafe-project/static/js/runtime~main.114dd31c.js.map",
+    "static/js/2.603f61cc.chunk.js": "/Cafe-project/static/js/2.603f61cc.chunk.js",
+    "static/js/2.603f61cc.chunk.js.map": "/Cafe-project/static/js/2.603f61cc.chunk.js.map",
+    "index.html": "/Cafe-project/index.html",
+    "precache-manifest.cc64b7a631dc2535d53829e8e0443b81.js": "/Cafe-project/precache-manifest.cc64b7a631dc2535d53829e8e0443b81.js",
+    "service-worker.js": "/Cafe-project/service-worker.js",
+    "static/css/main.053a887c.chunk.css.map": "/Cafe-project/static/css/main.053a887c.chunk.css.map",
+    "static/media/cake1.jpg": "/Cafe-project/static/media/cake1.d970546c.jpg",
+    "static/media/cake2.jpg": "/Cafe-project/static/media/cake2.cdebb431.jpg",
+    "static/media/ice1.jpg": "/Cafe-project/static/media/ice1.7284d09a.jpg",
+    "static/media/ice2.jpg": "/Cafe-project/static/media/ice2.165f46bf.jpg",
+    "static/media/kawa2.jpg": "/Cafe-project/static/media/kawa2.4f903cf2.jpg",
+    "static/media/kawa3.jpg": "/Cafe-project/static/media/kawa3.dc7d1c15.jpg",
+    "static/media/Home.css": "/Cafe-project/static/media/main2.5b87640e.jpg",
+    "static/media/outside3.jpg": "/Cafe-project/static/media/outside3.beaa1f42.jpg",
+    "static/media/table.jpg": "/Cafe-project/static/media/table.9184c1d0.jpg",
+    "static/media/tea.jpg": "/Cafe-project/static/media/tea.ee28482e.jpg",
+    "static/media/tea2.jpg": "/Cafe-project/static/media/tea2.57add3a2.jpg",
+    "static/media/widok.jpg": "/Cafe-project/static/media/widok.3eb84906.jpg"
+  }
+}
